@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Metric Calculator </title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+
+<body>
+
+<!-- first part -->
+<div id="first-part">
+    <span> Metric/Imperial unit conversion </span> 
+    <p id="number-entered"> </p> 
+</div>
+    
+<!-- second part   --> 
+<div id="second-part"> 
+    
+<!-- Length calculation  -->
+<div id="length-calc"> 
+    
+        <!-- <button onclick="lengthmtrFeet()"> Calculate </button>  -->
+        <input id="input-area" placeholder="Enter value above 0"> </input>
+        <button onclick="customvalue()"> Submit value </button>
+        <button onclick="refresh()"> Refresh value </button>
+        <!-- <button onclick="checkround()"> Roundup </button> -->
+        <p class="headers"> Length ( Meter / Feet ) </p>
+        <p id= "length-result"> </p>  
+    
+</div>
+     
+<!-- Volume calculation  -->
+<div id="volume-calc">
+
+        <p class="headers"> Volume ( Liters / Gallons ) </p> 
+        <p id= "volume-result"> </p>
+    
+</div>
+      
+<!--  Mass calculation  -->
+<div id="mass-calc">
+        
+        <p class="headers"> Mass (Kilograms / Pounds ) </p>
+        <p id="mass-result"> </p>
+
+</div> 
+      
+</div>
+
+<script src="unitconvertor.js"> </script> 
+</body>
+</html>
